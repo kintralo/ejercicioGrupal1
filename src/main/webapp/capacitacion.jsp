@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1 class="mt-3" style='text-align:center'>Formulario Ingreso Contacto</h1>
+	<h1 class="mt-3" style='text-align: center'>Formulario
+		Capacitación</h1>
 
 </body>
 </html>
