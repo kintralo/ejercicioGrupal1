@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+<h1 class="mt-3" style='text-align:center'>Formulario Ingreso Usuarios</h1>
 
 </body>
 </html>
