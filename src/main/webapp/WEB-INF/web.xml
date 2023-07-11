@@ -19,4 +19,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ServletContacto</display-name>
+    <servlet-name>ServletContacto</servlet-name>
+    <servlet-class>servlet.ServletContacto</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletContacto</servlet-name>
+    <url-pattern>/ServletContacto</url-pattern>
+  </servlet-mapping>
 </web-app>
