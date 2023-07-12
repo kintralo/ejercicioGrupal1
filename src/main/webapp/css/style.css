@@ -11,6 +11,7 @@ h1 {
 body{
 background-color: aliceblue;
 }
+
 h2 {
 
     color: darkgreen;
@@ -44,22 +45,8 @@ div {
     text-align: center;
 }
 /**Menu Header***/
-ul {
-    padding: 2%;
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    color: darkgreen;
-    font-size: medium;
-}
-/**Menu Header***/
-ul li {
-    font-size: 200%;
-    margin-right: 1%;
-}
-/**Menu Header***/
 
-/**Ubicación***/
+
 iframe {
     margin-left: 30%;
 }
@@ -74,16 +61,7 @@ iframe {
     width: 33%;
     border-radius: 10%;
 }
-/**formulario**/
-.formContact {
-    justify-content: center;
-}
-/**input formulario***/
-input[type=text] {
-    padding: 10px;
-    border: 0;
-    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
-}
+
 /**input formulario***/
 input {
     width: 50%;
