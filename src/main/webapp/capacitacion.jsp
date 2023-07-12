@@ -45,12 +45,12 @@
 	<div class="container">
 		<div class="row">
 
-			<form action="ServletCapacitacion" method="get">
+			<form action="ServletCapacitacion" method="POST">
 				<label for="lblCodigoCapacitacion" class="form-label">
 					<b>Código Capacitación</b>
 				</label> 
 				<input type="txt" class="form-control" id=""
-					name="txtCodigoCapaacitacion" autofocus="autofocus"
+					name="txtCodigoCapacitacion" autofocus="autofocus"
 					placeholder="Ingrese el código de la Capacitación"> 
 				<label for="lblRut" class="form-label"><b>Rut</b></label> 
 				<input type="txt" class="form-control" id="" name="txtRut"
@@ -83,10 +83,19 @@
 				<button type="submit" class="btn btn-primary form-control mt-3">
 					<b>Enviar</b>
 				</button>
+				
+				<h5>Codigo Capacitacion ${codigoCapacitacion}</h5>
+				<h5>Rut ${Rut}</h5>
+				<h5>Dia ${Dia}</h5>
+				<h5>Hora ${Hora}</h5>
+				<h5>Duracion Capacitacion ${duracionCapacitacion}</h5>
+				<h5>Cantidad Asistentes ${cantidadAsistentes}</h5>
+				<h5>Lugar Capacitacion ${lugarCapacitacion}</h5>
+				
 			</form>
 		</div>
 	</div>
-</br>
+
 
 	<script
 		src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

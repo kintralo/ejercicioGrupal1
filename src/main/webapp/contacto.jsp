@@ -42,10 +42,14 @@
 	<h1 class="mt-3" style='text-align: center'>Formulario Ingreso Contacto</h1>
 	<div class="container">
 		<div class="row">
-			<form action="ServletContacto" method="get">
+			<form action="ServletContacto" method="POST">
+			
 				<div class="form-group">
-					<label for="lblNombre">Nombre:</label> <input type="text"
+					<label for="lblNombre">Nombre: </label> 
+					<input  type="text"
 						class="form-control" id="name" name="txtNombre" autofocus="autofocus" required>
+						
+						
 				</div>
 				<div class="form-group">
 					<label for="lblEmail">Correo Electrónico:</label> <input type="email"
@@ -57,11 +61,13 @@
 						required></textarea>
 				</div>
 				<button type="submit" class="btn btn-primary form-control mt-3">Enviar</button>
-				
+				<h5>Nombre Ingresado ${nombreSalida} </h5>
+				<h5>Email Ingresado ${emailSalida} </h5>
+				<h5>Mensaje Ingresado ${mensajeSalida} </h5>
 			</form>
 		</div>
 	</div>
-	</br>
+	
 
 	
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
