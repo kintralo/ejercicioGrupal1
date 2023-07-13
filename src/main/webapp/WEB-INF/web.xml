@@ -39,4 +39,14 @@
     <servlet-name>ServletInicio</servlet-name>
     <url-pattern>/ServletInicio</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletCapacitacion</display-name>
+    <servlet-name>ServletCapacitacion</servlet-name>
+    <servlet-class>servlet.ServletCapacitacion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletCapacitacion</servlet-name>
+    <url-pattern>/ServletCapacitacion</url-pattern>
+  </servlet-mapping>
 </web-app>
