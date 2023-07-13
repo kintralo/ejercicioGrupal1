@@ -1,8 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-		<jsp:include page='inicio.jsp'>
-		<jsp:param name='title' value='Welcome' />
-		</jsp:include>
 <!DOCTYPE html>
 <html>
 <head>
