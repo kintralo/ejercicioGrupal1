@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * Servlet implementation class ServletContacto
+ * Servlet implementation class ServletCapacitacion
  */
 public class ServletCapacitacion extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -35,7 +35,6 @@ public class ServletCapacitacion extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		//doGet(request, response);
 		request.setAttribute("codigoCapacitacion", request.getParameter("txtCodigoCapacitacion"));
 		request.setAttribute("Rut", request.getParameter("txtRut"));
 		request.setAttribute("Dia", request.getParameter("txtDia"));
@@ -43,10 +42,8 @@ public class ServletCapacitacion extends HttpServlet {
 		request.setAttribute("duracionCapacitacion", request.getParameter("txtDuracion"));
 		request.setAttribute("cantidadAsistentes", request.getParameter("asistentes"));
 		request.setAttribute("lugarCapacitacion", request.getParameter("txtLugarCapacitacion"));
-		RequestDispatcher rd = request.getRequestDispatcher("/capacitacion.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("./views/capacitacion.jsp");
 		rd.forward(request,  response);
-		
-	
 	}
 
 }

@@ -39,7 +39,7 @@ public class ServletContacto extends HttpServlet {
 		request.setAttribute("nombreSalida", request.getParameter("txtNombre"));
 		request.setAttribute("emailSalida", request.getParameter("txtEmail"));
 		request.setAttribute("mensajeSalida", request.getParameter("txtMessage"));
-		RequestDispatcher rd = request.getRequestDispatcher("/contacto.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("./views/contacto.jsp");
 		rd.forward(request,  response);
 		
 	
